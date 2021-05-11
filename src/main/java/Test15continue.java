@@ -9,7 +9,7 @@ public class Test15continue
         {
             if(i%2==0)
             {
-                break;
+                continue;
             }
             System.out.println(i);
         }
