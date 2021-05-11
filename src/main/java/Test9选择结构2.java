@@ -2,7 +2,8 @@ public class Test9选择结构2 {
     public static void main (String[] args){
         /**
          * switch结构
-         * 记得加break
+         * 每个case后记得加break
+         * 使用比if少
          */
         int m=5;
         switch (m)
