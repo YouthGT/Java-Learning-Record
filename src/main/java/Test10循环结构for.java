@@ -1,12 +1,18 @@
-public class Test10循环结构for {
-    public static void main(String[] args) {
+public class Test10循环结构for
+{
+    public static void main(String[] args)
+    {
         /**for循环结构！！！重点用的多
-         * DRY:Don’t Repeat Youself
+         * for>while>do...while
+         * DRY:Don’t Repeat Yourself
+         * for循环用的最多
          */
-        int i;
-        for (i=0;i<9;i++)
+        for (int i = 0; i < 3; i++)
         {
-            System.out.println("加油加油加油");
+            for (int j = 1; j <= 3; j++)
+            {
+                System.out.println("加油加油加油");
+            }
         }
     }
 }
