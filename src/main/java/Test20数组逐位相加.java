@@ -9,8 +9,7 @@ public class Test20数组逐位相加 {
         {
                 num3[i]=num1[i]+num2[i];
         }
-        String n=Arrays.toString(num3);
-        System.out.println(n);
+        System.out.println(Arrays.toString(num3));
 
     }
 }
