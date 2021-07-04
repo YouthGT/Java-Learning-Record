@@ -16,4 +16,8 @@ public class Test19数组的打印 {
  * 2.import Java.util.Arrays;
  * 然后Arrays.toString（a）
  * 3.idea 自动import功能，不要错误地import同类名
+ * Java支持一个简便的for循环，称之为for-each循环，不使用下标变量就可以顺序地遍历整个数组，例如，下面代码就可以显示数组myArray地所有元素：
+ * for (int i : myArray) {
+ * 	System.out.println(i);
+ * }
  */
