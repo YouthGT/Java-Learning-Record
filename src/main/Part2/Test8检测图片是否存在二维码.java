@@ -4,7 +4,7 @@ import com.yzk18.commons.QRCodeHelpers;
 
 public class Test8检测图片是否存在二维码 {
     public static void main(String[] args) {
-    String[] files = IOHelpers.getFilesRecursively("C:\\Users\\YouthGT\\Desktop\\yzk18","png","jpg");
+    String[] files = IOHelpers.getFilesRecursively("C:/Users/YouthGT/Desktop/yzk18","png","jpg","gif");
     boolean qrcodeFound = false;
         for (String file:files)
         {
