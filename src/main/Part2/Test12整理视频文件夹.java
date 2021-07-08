@@ -2,7 +2,7 @@ import com.yzk18.commons.IOHelpers;
 
 import java.io.File;
 
-public class Test11整理视频文件夹 {
+public class Test12整理视频文件夹 {
     public static void main(String[] args) {
     File file = new File("E:\\Learn\\考研\\数学\\张宇36讲\\概率论9讲");
     File[] dirs = file.listFiles();//生成文件数组
